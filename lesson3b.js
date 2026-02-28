@@ -40,8 +40,26 @@ console.log(squares)
 
 // Task: Write a for loop to print all odd numbers from 1 to 19.
 
+for (let number = 1 ;number<=19 ; number++)
 
-// Task: Write a for loop to count down from 10 to 1 and print the numbers in the
+{if  (number % 2 !== 0) {
+      console.log("The number is odd",number)}}
+
+
+
+ 
+
+
+
+
+ // Task: Write a for loop to count down from 10 to 1 and print the numbers in the
 // console.
+
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+}
+
+
+
 
 
