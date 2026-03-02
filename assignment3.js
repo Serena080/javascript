@@ -3,7 +3,7 @@
 
 for (let year = 2000 ; year<= 2026 ; year++)
      
-     if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)){
+     if ((year % 4 === 0 && year % 100 !== 0) ){
      console.log("The leap year is:", year)
 }
 
